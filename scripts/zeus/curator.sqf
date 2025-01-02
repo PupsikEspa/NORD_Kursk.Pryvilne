@@ -5,7 +5,6 @@ zeusmodule = [
     "76561198284004882", /// Миллер
     "76561199042520076", /// Ермак
     "76561199147083582", /// Каскад
-    "76561198047690862", /// Стена
     "76561198361041147", /// Кириенко
     "76561199034188469", /// Мирк
     "76561198815605790", /// Струна
@@ -23,7 +22,7 @@ zeusmodule = [
 	
 ];
 if (!(_playerUID in zeusmodule)) exitwith {};
-if ((side player != civilian) && (_playerUID != "76561198432363921") && (_playerUID != "76561198284004882") && (_playerUID !="76561198135788033") && (_playerUID != "76561198047690862") && (_playerUID != "76561199287760678") && (_playerUID != "76561198216667587") && (_playerUID != "76561198297574929") && (_playerUID != "76561198201205878")) exitwith {};
+if ((side player != civilian) && (_playerUID != "76561198432363921") && (_playerUID != "76561198284004882") && (_playerUID !="76561198135788033") && (_playerUID != "76561199287760678") && (_playerUID != "76561198216667587") && (_playerUID != "76561198297574929") && (_playerUID != "76561198201205878")) exitwith {};
 
 _index = zeusmodule find _playerUID;
 _dedman = format["dedman%1", _index];
