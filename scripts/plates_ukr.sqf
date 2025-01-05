@@ -1,5 +1,5 @@
 msco73_plate setObjectTextureGlobal [0, "scripts\plates_ukr\msco73_plate_ca.paa"];
-oppcp8_plate setObjectTextureGlobal [0, "scripts\plates_ukr\oppcp8_plate_ca.paa"];
+omega_plate setObjectTextureGlobal [0, "scripts\plates_ukr\omega_plate_ca.paa"];
 tso_a_plate setObjectTextureGlobal [0, "scripts\plates_ukr\tso_a_plate_ca.paa"];
 odshbr80_plate setObjectTextureGlobal [0, "scripts\plates_ukr\odshbr80_plate_ca.paa"];
 odsbr82_plate setObjectTextureGlobal [0, "scripts\plates_ukr\odsbr82_plate_ca.paa"];

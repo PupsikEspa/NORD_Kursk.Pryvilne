@@ -1,3 +1,6 @@
+//test
+sleep 3;
+[] execVM "test\test.sqf";
 if (isServer) then {
 	save_var_hohol = 1;
 	clean_var_hohol = 1;

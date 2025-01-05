@@ -228,6 +228,22 @@ class dshp56_spawner_class //56 ДШП
         
     };
 };
+class shtorm_v_spawner_class //Шторм-V
+{
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == shtorm_v_spawner)"; // "(playerSide in [west,independent])"
+    
+    class shtorm_v_spawner_class
+	{
+        displayName = "Запрос техники Шторм-V";
+        vehicles[] =
+        {};
+        spawnPoints[] =
+        {
+            {"1",{"shtorm_v_spawnplace"}}
+        };
+        
+    };
+};
 
 
 // РУСНЯВЫЕ СПНЫ
@@ -605,18 +621,18 @@ class tso_a_spawner_class //ЦСО "А"
     };
 };
 
-class oppcp8_spawner_class //8 ОПСпП
+class omega_spawner_class //НГУ "Омега"
 {
-    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == oppcp8_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == omega_spawner)"; // "(playerSide in [west,independent])"
     
-    class oppcp8_spawner_class
+    class omega_spawner_class
 	{
         displayName = "Запрос техники";
         vehicles[] =
         {};
         spawnPoints[] =
         {
-            {"1",{"oppcp8_spawnplace"}}
+            {"1",{"omega_spawnplace"}}
         };
         
     };
