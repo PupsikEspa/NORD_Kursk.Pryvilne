@@ -114,7 +114,10 @@ class logistic_rf_spawner_class //ящики рф
 			{"tbd_mortar_120mm_box",-1,"true"},
 			{"tbd_mortars_100mm_box_he",-1,"true"},
             {"tbd_2b9_vasilek_magazine",2,"true"},
-            {"tbd_mortar_82mm_box_he",-1,"true"}
+            {"tbd_mortar_82mm_box_he",-1,"true"},
+            {"boxes_bk_vtn_ags_type1",-1,"true"},
+            {"boxes_bk_vtn_ags_type2",-1,"true"},
+            {"boxes_bk_vtn_ags_type3",-1,"true"}
 
         };
         spawnPoints[] =
@@ -457,7 +460,10 @@ class logistic_vsu_spawner_class //ящики всу
 			{"tbd_mortar_120mm_box",-1,"true"},
 			{"tbd_mortars_100mm_box_he",-1,"true"},
             {"tbd_2b9_vasilek_magazine",2,"true"},
-            {"tbd_mortar_82mm_box_he",-1,"true"}
+            {"tbd_mortar_82mm_box_he",-1,"true"},
+            {"boxes_bk_vtn_ags_type1",-1,"true"},
+            {"boxes_bk_vtn_ags_type2",-1,"true"},
+            {"boxes_bk_vtn_ags_type3",-1,"true"}
             
         };
         spawnPoints[] =
